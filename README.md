@@ -8,7 +8,10 @@ Include the problem statement and Dataset
 
 
 ## Neural Network Model
-Include the neural network model diagram.
+
+<img width="1248" height="963" alt="image" src="https://github.com/user-attachments/assets/9d25b1eb-bad2-4493-a824-dffd9fed4850" />
+
+
 
 ## DESIGN STEPS
 ## STEP 1:
@@ -233,8 +236,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name:SURYANARAYANAN T")
-    print("Register Number:212224040341")
+    print("Name:ROHITH V")
+    print("Register Number:212224220083")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
@@ -282,17 +285,24 @@ predict_image(model, image_index=25, dataset=test_dataset)
 
 ## Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+<img width="803" height="626" alt="image" src="https://github.com/user-attachments/assets/3141e2d9-b5ec-46a8-9ef8-d251cc2be371" />
+
 
 ## Confusion Matrix
 
-Include confusion matrix here
+<img width="806" height="753" alt="image" src="https://github.com/user-attachments/assets/e931eb17-1469-465a-bbef-98430b8c2ac5" />
+
+
 
 ## Classification Report
-Include classification report here
+
+<img width="531" height="253" alt="image" src="https://github.com/user-attachments/assets/bf1e9243-a749-41aa-adbb-8617c8e2e51c" />
+
 
 ### New Sample Data Prediction
-Include your sample input and output here
+
+<img width="512" height="614" alt="image" src="https://github.com/user-attachments/assets/d094a94e-98bf-4aa9-b6b9-ac9b16257df0" />
+
 
 ## RESULT
-Include your result here
+Thus, the image classification model using transfer learning with VGG19 architecture for the given dataset has been executed successfully.
